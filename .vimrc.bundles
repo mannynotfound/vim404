@@ -89,6 +89,8 @@
     " }
 
     " Snippets & AutoComplete {
+        Bundle 'Shougo/neosnippet'
+        Bundle 'Shougo/neosnippet-snippets'
         Bundle 'Shougo/neocomplete.vim.git'
         Bundle 'Shougo/neocomplcache'
     " }
