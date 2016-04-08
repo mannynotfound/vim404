@@ -459,11 +459,13 @@
 
     " neocomplete {
         let g:acp_enableAtStartup = 0
+        let g:neocomplete#disable_auto_complete=1
         let g:neocomplete#enable_at_startup = 1
         let g:neocomplete#enable_smart_case = 1
         let g:neocomplete#enable_auto_delimiter = 1
         let g:neocomplete#max_list = 15
         let g:neocomplete#force_overwrite_completefunc = 1
+        let g:neosnippet#disable_runtime_snippets = { "_": 1, }
 
 
         " Define dictionary.
