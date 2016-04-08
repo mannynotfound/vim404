@@ -230,6 +230,7 @@
     nnoremap <C-J> <C-W><C-J>
     nnoremap <C-K> <C-W><C-K>
     nnoremap <C-L> <C-W><C-L>
+    nnoremap <C-H> <C-W><C-W>
 
     " Wrapped lines goes down/up to next row, rather than next line in file.
     noremap j gj
