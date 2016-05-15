@@ -53,6 +53,7 @@
     set background=dark         " Assume a dark background
     set modifiable
     colorscheme lettuce
+    set nocursorline
 
     " Allow to trigger background
     function! ToggleBG()
@@ -231,6 +232,10 @@
     nnoremap <C-K> <C-W><C-K>
     nnoremap <C-L> <C-W><C-L>
     nnoremap <C-H> <C-W><C-W>
+    nmap <leader>z u<CR>
+    nmap <leader>s :w<CR>
+    nmap <leader>w :q<CR>
+    nmap <leader>sw :wq!<CR>
 
     " Wrapped lines goes down/up to next row, rather than next line in file.
     noremap j gj
