@@ -81,6 +81,9 @@
         Bundle 'flazz/vim-colorschemes'
         Bundle 'vim-scripts/restore_view.vim'
         Bundle 'mhinz/vim-signify'
+        Bundle 'reedes/vim-textobj-quote'
+        Bundle 'kana/vim-textobj-user'
+        Bundle 'tpope/vim-markdown'
     " }
 
     " General Programming {
